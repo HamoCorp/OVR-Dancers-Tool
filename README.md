@@ -8,10 +8,20 @@ A tool for VR dancers, VR bboys and bgirls to quickly switch between hand tracke
 ## installation
 
 Then, in SteamVR settings → Startup/Shutdown → Manage Add-ons, enable **Dancers Tool**.
-## feature list
+
 
 ## usage
+With your controllers and hand trackers, on select OVR Dancers tool from the Steam menu and select add mapping.
 
+Select the tracker and controller you want to override, or use virtual controller. If you want to use only the tracker without a controller, then select add tracker
+
+Press the on button to enable the tracker, then press the quick adjust button while holding your controller to align the tracker to the controller, or manually edit the offsets if you need more offset
+
+## adding bindings
+
+## settings to change
+
+## osc websockets?
 
 
 ## Possible issues and fixes
