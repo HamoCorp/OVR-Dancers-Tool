@@ -1,0 +1,88 @@
+{
+    "name": "OVR Dancers Tool Default Bindings (Oculus Touch / Meta Quest)",
+    "controller_type": "oculus_touch",
+    "category": "steamvr_input",
+    "bindings": {
+        "/actions/ovrdancers": {
+            "sources": [
+                {
+                    "path": "/user/hand/left/input/trigger",
+                    "mode": "trigger",
+                    "inputs": {
+                        "pull": { "output": "/actions/ovrdancers/in/trigger_left" },
+                        "click": { "output": "/actions/ovrdancers/in/trigger_click_l" }
+                    }
+                },
+                {
+                    "path": "/user/hand/right/input/trigger",
+                    "mode": "trigger",
+                    "inputs": {
+                        "pull": { "output": "/actions/ovrdancers/in/trigger_right" },
+                        "click": { "output": "/actions/ovrdancers/in/trigger_click_r" }
+                    }
+                },
+                {
+                    "path": "/user/hand/left/input/squeeze",
+                    "mode": "trigger",
+                    "inputs": {
+                        "pull": { "output": "/actions/ovrdancers/in/grip_left" },
+                        "click": { "output": "/actions/ovrdancers/in/grip_click_l" }
+                    }
+                },
+                {
+                    "path": "/user/hand/right/input/squeeze",
+                    "mode": "trigger",
+                    "inputs": {
+                        "pull": { "output": "/actions/ovrdancers/in/grip_right" },
+                        "click": { "output": "/actions/ovrdancers/in/grip_click_r" }
+                    }
+                },
+                {
+                    "path": "/user/hand/left/input/thumbstick",
+                    "mode": "joystick",
+                    "inputs": {
+                        "position": { "output": "/actions/ovrdancers/in/thumbstick_left" },
+                        "click": { "output": "/actions/ovrdancers/in/thumbstick_click_l" }
+                    }
+                },
+                {
+                    "path": "/user/hand/right/input/thumbstick",
+                    "mode": "joystick",
+                    "inputs": {
+                        "position": { "output": "/actions/ovrdancers/in/thumbstick_right" },
+                        "click": { "output": "/actions/ovrdancers/in/thumbstick_click_r" }
+                    }
+                },
+                {
+                    "path": "/user/hand/left/input/x",
+                    "mode": "button",
+                    "inputs": {
+                        "click": { "output": "/actions/ovrdancers/in/x_click" }
+                    }
+                },
+                {
+                    "path": "/user/hand/left/input/y",
+                    "mode": "button",
+                    "inputs": {
+                        "click": { "output": "/actions/ovrdancers/in/y_click" }
+                    }
+                },
+                {
+                    "path": "/user/hand/right/input/a",
+                    "mode": "button",
+                    "inputs": {
+                        "click": { "output": "/actions/ovrdancers/in/a_click" }
+                    }
+                },
+                {
+                    "path": "/user/hand/right/input/b",
+                    "mode": "button",
+                    "inputs": {
+                        "click": { "output": "/actions/ovrdancers/in/b_click" }
+                    }
+                }
+            ]
+        }
+    },
+    "description": "Default OVR Dancers Tool bindings for Oculus Touch / Meta Quest"
+}
