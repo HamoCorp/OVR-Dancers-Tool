@@ -5,7 +5,7 @@
 # OVR-Dancers-Tool
 A tool for dancers, VR bboys and bgirls can quickly switch between use trackers to override controllers or finger tracking for things like **handstands** without cooking your controller. This is a quicker alternative to [Openvr-Input-Emulator](https://github.com/matzman666/OpenVR-InputEmulator), specifically for dancers to **override** hand tracker position and add **bindings** to quickly switch between them.
 
-**Works for index controllers and quest**
+**Should work for index  and quest controllers and more**
 
 <img width="769" height="571" alt="Capture1" src="https://github.com/user-attachments/assets/5339865f-aabc-4d6e-9daf-348c624d33b6" />
 
@@ -60,11 +60,16 @@ Then press the save button, so it loads this every time you start VR
 
 ## osc websockets?
 
+## file locations
+want to ensure it's completely removed or check it's installed correctly
+
+-   steam vr driver folder `C:\Program Files (x86)\Steam\steamapps\common\SteamVR\drivers\00ovrdancers\`
+-   Saving and logging data might not show up until running it in SteamVR
+-   executable location
 
 ## Possible issues and fixes
 
 - Driver not connecting might be caused after a steam crash, addons blocked, in SteamVR settings → Startup/Shutdown → Manage Add-ons, enable **Dancers Tool**.
-- check it's installed correctly or want to ensure it's completely removed, delete this folder C:\Program Files (x86)\Steam\steamapps\common\SteamVR\drivers\00ovrdancers\
 - vibration not working: Unfortunately, the SteamVR driver SDK doesn't expose a way to trigger haptics on another driver's physical device (TriggerHapticPulse only exists in the client API, not IVRServerDriverHost), so vibration forwarding isn't implementable at this level without deeper OS-level hooking. best to set a binding to switch between trackers when you're holding them.
 - might be some issues using the Steam store version of Space Call, try using the [GitHub version](https://github.com/hyblocker/OpenVR-SpaceCalibrator) if your controller appears extremely far away
 - Related issue: driver naming can cause an issue if a different drive loads before this one, which takes over the controllers. This is due to the naming order 00 at the start, making it load before Oculus alphabetically
