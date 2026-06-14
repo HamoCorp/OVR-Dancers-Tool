@@ -1,7 +1,7 @@
 <img width="100" height="100" alt="logofull size" src="https://github.com/user-attachments/assets/e432d39d-3f82-4f99-b15b-8adb36a840a4" />
 
 # OVR-Dancers-Tool
-A tool for VR dancers, VR bboys and bgirls to quickly switch between hand trackers as controller for things like **handstands** without cooking your controller. This is a quicker alternative to [Openvr-Input-Emulator](https://github.com/matzman666/OpenVR-InputEmulator), specifically for dancers to **override** hand tracker position and add **bindings** to quickly switch between them.
+A tool for dancers, VR bboys and bgirls can quickly switch between hand trackers as controller for things like **handstands** without cooking your controller. This is a quicker alternative to [Openvr-Input-Emulator](https://github.com/matzman666/OpenVR-InputEmulator), specifically for dancers to **override** hand tracker position and add **bindings** to quickly switch between them.
 
 
 
