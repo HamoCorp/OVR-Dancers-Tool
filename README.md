@@ -5,21 +5,33 @@
 # OVR-Dancers-Tool
 A tool for dancers, VR bboys and bgirls can quickly switch between use trackers to override controllers or finger tracking for things like **handstands** without cooking your controller. This is a quicker alternative to [Openvr-Input-Emulator](https://github.com/matzman666/OpenVR-InputEmulator), specifically for dancers to **override** hand tracker position and add **bindings** to quickly switch between them.
 
+**Works for index controllers and quest**
 
+<img width="769" height="571" alt="Capture1" src="https://github.com/user-attachments/assets/5339865f-aabc-4d6e-9daf-348c624d33b6" />
 
 ## installation
 
 Then, in SteamVR settings → Startup/Shutdown → Manage Add-ons, enable **Dancers Tool**.
 
 
+
+
 ## usage
 With your controllers and wrist trackers in your hands, select OVR Dancers tool from the Steam menu and select add mapping.
+
+<img width="145" height="50" alt="Capture4" src="https://github.com/user-attachments/assets/67d02866-f1fb-41b2-ba09-eea4575ba961" />
 
 Select the tracker and controller you want to override, or use virtual controller. If you want to use only the tracker without a controller, then select add tracker
 
 Press the on button to enable the tracker, then press the quick adjust button while holding your controller to align the tracker to the controller, or manually edit the offsets if you need more offset
 
+<img width="769" height="301" alt="Capture2" src="https://github.com/user-attachments/assets/7cbc7f36-b363-440b-bafa-8c4d9e393eae" />
+
 Then press the save button, so it loads this every time you start VR
+
+
+<img width="200" height="49" alt="Capture5" src="https://github.com/user-attachments/assets/c38a4c3c-c634-4360-a7eb-bb7b244c16c1" />
+
 
 ## adding bindings
 
