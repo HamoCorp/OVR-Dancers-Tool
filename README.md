@@ -85,6 +85,27 @@ want to ensure it's completely removed or check it's installed correctly
 - CMake 3.20+
 - Git
 
+### Step 1 — Clone dependencies into vendor/
+
+```
+cd vendor
+
+# OpenVR SDK
+git clone https://github.com/ValveSoftware/openvr.git
+
+# Dear ImGui
+git clone https://github.com/ocornut/imgui.git
+
+# GLFW (pre-built binaries)
+# Download from https://www.glfw.org/download.html
+# Extract as vendor/glfw  (pick the 64-bit VS2022 package)
+
+# stb (header-only)
+git clone https://github.com/nothings/stb.git
+```
+
+### Step 2 — Build
+
 Edit this command with your vs version:
 `cmake -B build -S . -G "Visual Studio 18 2026" -A x64
 cmake --build build --config Release`
@@ -93,7 +114,7 @@ Output:
 - `build/driver/`  → SteamVR driver DLL
 - `build/overlay/` → Overlay app exe
 
-Install the driver into SteamVR
+### Step 3 — Install Driver into SteamVR
 
 Copy the `build/driver/` folder into SteamVR's driver directory:
 
