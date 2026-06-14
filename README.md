@@ -1,4 +1,4 @@
-# not finished work in progress
+# not finished work in progress, Not Working yet almost finished
 
 <img width="100" height="100" alt="logofull size" src="https://github.com/user-attachments/assets/e432d39d-3f82-4f99-b15b-8adb36a840a4" />
 
