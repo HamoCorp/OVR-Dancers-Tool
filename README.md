@@ -11,7 +11,25 @@ A tool for dancers, VR bboys and bgirls can quickly switch between use trackers 
 
 ## installation
 
+Install the driver into SteamVR
+
+Copy the `build/driver/` folder into SteamVR's driver directory:
+
+```
+C:\Program Files (x86)\Steam\steamapps\common\SteamVR\drivers\00ovrdancers\
+```
+
+Structure should be:
+```
+drivers/ovrdancers/
+    driver.vrdrivermanifest
+    bin/win64/
+        driver_ovrdancers.dll
+```
+
 Then, in SteamVR settings → Startup/Shutdown → Manage Add-ons, enable **Dancers Tool**.
+
+Then open OVRDancersTool.exe
 
 
 
@@ -22,6 +40,9 @@ With your controllers and wrist trackers in your hands, select OVR Dancers tool 
 <img width="145" height="50" alt="Capture4" src="https://github.com/user-attachments/assets/67d02866-f1fb-41b2-ba09-eea4575ba961" />
 
 Select the tracker and controller you want to override, or use virtual controller. If you want to use only the tracker without a controller, then select add tracker
+
+<img width="453" height="318" alt="Capture7" src="https://github.com/user-attachments/assets/9a94a90c-aed1-46e5-8a5b-569b2b3c7025" />
+
 
 Press the on button to enable the tracker, then press the quick adjust button while holding your controller to align the tracker to the controller, or manually edit the offsets if you need more offset
 
