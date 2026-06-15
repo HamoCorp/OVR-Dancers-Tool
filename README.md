@@ -64,7 +64,7 @@ Then press the save button, so it loads this every time you start VR
 want to ensure it's completely removed or check it's installed correctly
 
 -   steam vr driver folder `C:\Program Files (x86)\Steam\steamapps\common\SteamVR\drivers\00ovrdancers\`
--   Saving and logging data might not show up until running it in SteamVR
+-   Saving and logging data might not show up until running it in SteamVR `AppData\Roaming\OVRDancersTool`
 -   executable location
 
 ## Possible issues and fixes
@@ -109,6 +109,9 @@ git clone https://github.com/nothings/stb.git
 Edit this command with your vs version:
 `cmake -B build -S . -G "Visual Studio 18 2026" -A x64
 cmake --build build --config Release`
+
+To build on Linux: 
+`cmake -B build -DOPENVR_SDK_PATH=... -DIMGUI_PATH=... -DGLFW_PATH=... && cmake --build build.`
 
 Output:
 - `build/driver/`  → SteamVR driver DLL
