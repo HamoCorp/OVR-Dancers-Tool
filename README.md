@@ -1,4 +1,4 @@
-# not finished work in progress, Not Working yet almost finished
+# not finished work in progress, Not Working yet, almost finished
 
 <img width="100" height="100" alt="logofull size" src="https://github.com/user-attachments/assets/e432d39d-3f82-4f99-b15b-8adb36a840a4" />
 
@@ -58,8 +58,6 @@ Then press the save button, so it loads this every time you start VR
 
 ## settings to change
 
-## osc websockets?
-
 ## file locations
 want to ensure it's completely removed or check it's installed correctly
 
@@ -77,7 +75,12 @@ want to ensure it's completely removed or check it's installed correctly
  <img width="367" height="272" alt="Capture" src="https://github.com/user-attachments/assets/747e81cc-1509-4d4e-92b5-730f95fb0646" />
 
 
-
+## feature I still need to add
+1. integration OSC for VRChat, websockets for Resonite
+2. virtual ghost controllers showing the original position of the controller. something I tried but had issues with, so I removed i might try to add it back in the future
+3. Language translation needs to help out the Japanese and Korean dancers
+4. skeletal hand tracking switching
+5. Test it works on Linux
 
 ## rebuilding (don't read this, only for nerds or Claude)
 
