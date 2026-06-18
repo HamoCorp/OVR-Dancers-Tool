@@ -61,7 +61,7 @@ Then press the save button, so it loads this every time you start VR
 ## OSC Integration
 OSC integration for compatibility with VRChat, Resonite, ChilloutVR to add a custom effect to your avatars based on whether your hand trackers are active or disabled 
 
-Add /avatar/OVRDancers_Active to your unity projects
+Add /avatar/parameters/OVRDancers_Active to your unity projects
 
 <img width="899" height="505" alt="20260618025502_1" src="https://github.com/user-attachments/assets/c3da51c5-c5f5-406a-a539-fde7bbaf7320" />
 
