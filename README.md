@@ -58,6 +58,19 @@ Then press the save button, so it loads this every time you start VR
 
 ## settings to change
 
+## OSC
+OSC integration for compatibility with VRChat, Resonite, ChilloutVR to add a custom effect to your avatars based on whether your hand trackers are active or disabled 
+
+Add /avatar/OVRDancers_Active to your unity projects
+
+<img width="899" height="505" alt="20260618025502_1" src="https://github.com/user-attachments/assets/c3da51c5-c5f5-406a-a539-fde7bbaf7320" />
+
+## Websockets
+resonite only alternative to OSC. Use websockets instead, and display your hand tracker status in-game
+
+<img width="2560" height="1126" alt="20260618050802_1" src="https://github.com/user-attachments/assets/15cd52bb-e044-4360-ac80-67747abc11b0" />
+Get this example from my public folder`resrec:///U-HamoCorp/R-e5c234a3-c4d4-4645-af54-7a80d388605c`
+
 ## file locations
 want to ensure it's completely removed or check it's installed correctly
 
@@ -76,11 +89,10 @@ want to ensure it's completely removed or check it's installed correctly
 
 
 ## feature I still need to add
-1. integration OSC for VRChat, websockets for Resonite
-2. virtual ghost controllers showing the original position of the controller. something I tried but had issues with, so I removed i might try to add it back in the future
-3. Language translation needs to help out the Japanese and Korean dancers
-4. skeletal hand tracking switching
-5. Test it works on Linux
+1. virtual ghost controllers showing the original position of the controller. something I tried but had issues with, so I removed i might try to add it back in the future
+2. Language translation needs to help out the Japanese and Korean dancers
+3. skeletal hand tracking switching
+4. Test it works on Linux
 
 ## rebuilding (don't read this, only for nerds or Claude)
 
