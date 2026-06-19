@@ -1,5 +1,3 @@
-# not finished work in progress, Not Working yet, almost finished
-
 <img width="100" height="100" alt="logofull size" src="https://github.com/user-attachments/assets/e432d39d-3f82-4f99-b15b-8adb36a840a4" />
 
 # OVR-Dancers-Tool
@@ -69,14 +67,15 @@ Add /avatar/parameters/OVRDancers_Active to your unity projects
 Resonite only alternative to OSC. Use websockets instead, and display your hand tracker status in-game, using ws://127.0.0.1:8080 to get a JSON response
 
 <img width="2560" height="1126" alt="20260618050802_1" src="https://github.com/user-attachments/assets/15cd52bb-e044-4360-ac80-67747abc11b0" />
-Get this example from my public folder `resrec:///U-HamoCorp/R-e5c234a3-c4d4-4645-af54-7a80d388605c`
+Get this example from my public folder
+`resrec:///U-HamoCorp/R-e5c234a3-c4d4-4645-af54-7a80d388605c`
 
 ## file locations
 want to ensure it's completely removed or check it's installed correctly
 
 -   steam vr driver folder `C:\Program Files (x86)\Steam\steamapps\common\SteamVR\drivers\00ovrdancers\`
 -   Saving and logging data might not show up until running it in SteamVR `AppData\Roaming\OVRDancersTool`
--   executable location
+-   executable location `C:\Program Files (x86)\OVR Dancers Tool`
 
 ## Possible issues and fixes
 
