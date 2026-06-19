@@ -2,8 +2,12 @@
 #include <cstdint>
 #include <cstring>
 
-// Named pipe used for driver <-> overlay IPC
+// IPC transport name — named pipe on Windows, Unix domain socket on Linux
+#ifdef _WIN32
 #define OVRDANCERS_PIPE_NAME R"(\\.\pipe\OVRDancers)"
+#else
+#define OVRDANCERS_PIPE_NAME "/tmp/ovrdancers.sock"
+#endif
 
 // Max devices we track
 #define MAX_DEVICES 16
@@ -18,6 +22,8 @@ enum class MsgType : uint32_t {
     RequestState    = 6,   // Ask driver to send full state back
     InputUpdate     = 7,   // Forward real-controller button/axis state to virtual device
     HideSettings    = 8,   // Toggle render model visibility for controllers/trackers
+    CreateVirtualControllers = 9, // Register VirtCtrl_L and VirtCtrl_R in SteamVR (one-shot)
+    SetVirtCtrlActive        = 10,// Connect or disconnect a virtual controller (side: 1=L,2=R)
     // Driver -> Overlay
     StateUpdate     = 100, // Full state snapshot
     DeviceListUpdate= 101, // Tracked device list changed
@@ -34,7 +40,12 @@ struct Quat {
 // 6DOF offset: position + rotation applied to tracker pose before using as controller pose
 struct Offset6DOF {
     Vec3 pos   = {0, 0, 0};
-    Quat rot   = {1, 0, 0, 0}; // identity quaternion
+    Quat rot   = {1, 0, 0, 0}; // identity quaternion — tracker-local rotation
+    Quat calibTrackerRot = {1, 0, 0, 0}; // tracker world rotation at calibration time
+    // World-space transform applied after the tracker→controller position is computed.
+    // Use for global position/orientation correction independent of calibration.
+    Vec3 originOffset = {0, 0, 0};
+    Quat originRot    = {1, 0, 0, 0};
 };
 
 struct DeviceMapping {
@@ -46,6 +57,7 @@ struct DeviceMapping {
     Offset6DOF offset;
     uint32_t  side            = 0; // 1=left, 2=right (TrackedControllerRole values)
     uint32_t  virtDevIdx      = 0xFFFFFFFF; // ghost virtual controller device index
+    bool      redirectMode    = false; // true = use redirect-source (OVRIE) method
 };
 
 // Describes one tracked device as seen by the overlay
@@ -100,6 +112,12 @@ struct Msg_DeviceListUpdate {
 struct Msg_HideSettings {
     uint8_t hideControllers; // 1 = hide physical controllers, 0 = show
     uint8_t hideTrackers;    // 1 = hide tracker pucks, 0 = show
+    uint8_t _pad[6];
+};
+
+struct Msg_SetVirtCtrlActive {
+    uint8_t side;   // 1=left, 2=right
+    uint8_t active; // 1=connect, 0=disconnect
     uint8_t _pad[6];
 };
 

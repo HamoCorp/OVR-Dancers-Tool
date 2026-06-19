@@ -1,0 +1,7 @@
+{
+   "alwaysActivate" : false,
+   "name" : "ovrdancers",
+   "directory" : "",
+   "resourceOnly" : false,
+   "hmd_presence" : []
+}

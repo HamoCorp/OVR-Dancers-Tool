@@ -1,0 +1,16 @@
+{
+    "source": "builtin",
+    "applications": [{
+        "app_key": "ovrdancers.dashboard",
+        "launch_type": "binary",
+        "binary_path_windows": "OVRDancersTool.exe",
+        "is_dashboard_overlay": true,
+        "action_manifest_path": "resources/actions.json",
+        "strings": {
+            "en_us": {
+                "name": "OVR Dancers Tool",
+                "description": "Map any controller to any tracker position"
+            }
+        }
+    }]
+}

@@ -1,0 +1,49 @@
+{
+    "default_bindings": [
+        {
+            "controller_type": "oculus_touch",
+            "binding_url": "bindings_oculus_touch.json"
+        },
+        {
+            "controller_type": "knuckles",
+            "binding_url": "bindings_knuckles.json"
+        },
+        {
+            "controller_type": "vive_controller",
+            "binding_url": "bindings_vive.json"
+        }
+    ],
+    "actions": [
+        { "name": "/actions/ovrdancers/in/trigger_left",      "type": "vector1",  "requirement": "optional" },
+        { "name": "/actions/ovrdancers/in/trigger_right",     "type": "vector1",  "requirement": "optional" },
+        { "name": "/actions/ovrdancers/in/grip_left",         "type": "vector1",  "requirement": "optional" },
+        { "name": "/actions/ovrdancers/in/grip_right",        "type": "vector1",  "requirement": "optional" },
+        { "name": "/actions/ovrdancers/in/thumbstick_left",   "type": "vector2",  "requirement": "optional" },
+        { "name": "/actions/ovrdancers/in/thumbstick_right",  "type": "vector2",  "requirement": "optional" },
+        { "name": "/actions/ovrdancers/in/trigger_click_l",   "type": "boolean",  "requirement": "optional" },
+        { "name": "/actions/ovrdancers/in/trigger_click_r",   "type": "boolean",  "requirement": "optional" },
+        { "name": "/actions/ovrdancers/in/grip_click_l",      "type": "boolean",  "requirement": "optional" },
+        { "name": "/actions/ovrdancers/in/grip_click_r",      "type": "boolean",  "requirement": "optional" },
+        { "name": "/actions/ovrdancers/in/thumbstick_click_l","type": "boolean",  "requirement": "optional" },
+        { "name": "/actions/ovrdancers/in/thumbstick_click_r","type": "boolean",  "requirement": "optional" },
+        { "name": "/actions/ovrdancers/in/a_click",           "type": "boolean",  "requirement": "optional" },
+        { "name": "/actions/ovrdancers/in/b_click",           "type": "boolean",  "requirement": "optional" },
+        { "name": "/actions/ovrdancers/in/x_click",           "type": "boolean",  "requirement": "optional" },
+        { "name": "/actions/ovrdancers/in/y_click",           "type": "boolean",  "requirement": "optional" },
+        { "name": "/actions/ovrdancers/in/menu_click",        "type": "boolean",  "requirement": "optional" },
+        { "name": "/actions/ovrdancers/in/toggle_hands",      "type": "boolean",  "requirement": "optional" }
+    ],
+    "action_sets": [
+        {
+            "name": "/actions/ovrdancers",
+            "usage": "leftright"
+        }
+    ],
+    "localization": [
+        {
+            "language_tag": "en_US",
+            "/actions/ovrdancers": "OVR Dancers Tool",
+            "/actions/ovrdancers/in/toggle_hands": "Toggle Hands On/Off"
+        }
+    ]
+}
