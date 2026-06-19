@@ -273,6 +273,20 @@ static void InitVROverlay(GLFWwindow* window, int w, int h) {
         &g_dashHandle,
         &g_thumbHandle);
 
+    // Register manifest so SteamVR recognises the overlay persistently
+    {
+        char exe[MAX_PATH] = {};
+        GetModuleFileNameA(nullptr, exe, sizeof(exe));
+        std::string dir(exe);
+        auto s = dir.rfind('\\');
+        if (s != std::string::npos) dir = dir.substr(0, s);
+        std::string mf = dir + "\\manifest.vrmanifest";
+        LOG_INFO("AddApplicationManifest: %s", mf.c_str());
+        vr::EVRApplicationError ae = vr::VRApplications()->AddApplicationManifest(mf.c_str(), false);
+        if (ae != vr::VRApplicationError_None)
+            LOG_INFO("AddApplicationManifest failed: %d", (int)ae);
+    }
+
     vr::VROverlay()->SetOverlayWidthInMeters(g_dashHandle, 3.0f);
     vr::VROverlay()->SetOverlayInputMethod(g_dashHandle, vr::VROverlayInputMethod_Mouse);
 

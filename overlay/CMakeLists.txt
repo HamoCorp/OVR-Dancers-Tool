@@ -94,6 +94,9 @@ add_custom_command(TARGET OVRDancersTool POST_BUILD
     COMMAND ${CMAKE_COMMAND} -E copy_directory
         "${CMAKE_CURRENT_SOURCE_DIR}/resources"
         "$<TARGET_FILE_DIR:OVRDancersTool>/resources"
+    COMMAND ${CMAKE_COMMAND} -E copy_if_different
+        "${CMAKE_CURRENT_SOURCE_DIR}/manifest.vrmanifest"
+        "$<TARGET_FILE_DIR:OVRDancersTool>/manifest.vrmanifest"
 )
 
 if(WIN32)

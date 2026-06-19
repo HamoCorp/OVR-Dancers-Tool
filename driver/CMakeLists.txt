@@ -50,7 +50,7 @@ if(WIN32)
     get_filename_component(_steamvr_root
         "[HKEY_CURRENT_USER\\Software\\Valve\\Steam;SteamPath]/steamapps/common/SteamVR"
         ABSOLUTE)
-    set(STEAMVR_DRIVER_DIR "${_steamvr_root}/drivers/ovrdancers/bin/win64"
+    set(STEAMVR_DRIVER_DIR "${_steamvr_root}/drivers/00ovrdancers/bin/win64"
         CACHE PATH "SteamVR driver bin/win64 output directory")
     add_custom_command(TARGET breakerstool_driver POST_BUILD
         COMMAND ${CMAKE_COMMAND} -E copy_if_different
