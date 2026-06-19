@@ -9,25 +9,13 @@ A tool for dancers, VR bboys and bgirls can quickly switch between use trackers 
 
 ## installation
 
-Install the driver into SteamVR
-
-Copy the `build/driver/` folder into SteamVR's driver directory:
-
-```
-C:\Program Files (x86)\Steam\steamapps\common\SteamVR\drivers\00ovrdancers\
-```
-
-Structure should be:
-```
-drivers/ovrdancers/
-    driver.vrdrivermanifest
-    bin/win64/
-        driver_ovrdancers.dll
-```
-
-Then, in SteamVR settings → Startup/Shutdown → Manage Add-ons, enable **Dancers Tool**.
+get the [latest release](https://github.com/HamoCorp/OVR-Dancers-Tool/releases/tag/1.0.0)
 
 Then open OVRDancersTool.exe
+
+Enable addon
+
+Set startup app
 
 
 
