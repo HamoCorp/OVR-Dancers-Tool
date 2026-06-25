@@ -138,11 +138,7 @@ want to ensure it's completely removed or check it's installed correctly
  <img width="367" height="272" alt="Capture" src="https://github.com/user-attachments/assets/747e81cc-1509-4d4e-92b5-730f95fb0646" />
 
 
-## feature I still need to add
-1. virtual ghost controllers showing the original position of the controller. something I tried but had issues with, so I removed i might try to add it back in the future
-2. Language translation needs to help out the Japanese and Korean dancers
-3. skeletal hand tracking switching
-4. Test it works on Linux
+
 
 ## rebuilding (don't read this, only for nerds or Claude)
 
