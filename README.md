@@ -13,6 +13,8 @@ Open OVRDancersTool.exe
 
 <img width="346" height="124" alt="Screenshot 2026-06-25 060628" src="https://github.com/user-attachments/assets/145abdff-b526-480f-877e-e5f8c3fdd7cc" />
 
+### Enabling the addon and startup launch
+
 In Steam VR settings, startup and shutdown, select manage add-ons
 
 <img width="762" height="139" alt="Capture12" src="https://github.com/user-attachments/assets/689bbc33-796b-4dac-b078-3e93124b547d" />
