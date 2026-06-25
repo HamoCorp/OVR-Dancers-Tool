@@ -3,9 +3,7 @@
 # OVR-Dancers-Tool
 A tool for dancers, VR bboys and bgirls can quickly switch between use trackers to override controllers or finger tracking for things like **handstands** without cooking your controller. This is a faster working alternative to [OpenVR-Input-Emulator](https://github.com/matzman666/OpenVR-InputEmulator), specifically for dancers to **override** hand-tracker positions and add **bindings** to quickly switch between them.
 
-**Should work for index  and quest controllers and more**
-
-<img width="769" height="571" alt="Capture1" src="https://github.com/user-attachments/assets/5339865f-aabc-4d6e-9daf-348c624d33b6" />
+<img width="1920" height="1008" alt="videoframe_34477" src="https://github.com/user-attachments/assets/fdc18f5f-fce8-48ea-a32c-ba5dad46b3e6" />
 
 ## installation
 
@@ -27,11 +25,13 @@ With your controllers and wrist trackers in your hands, select OVRDancersTool fr
 
 Select the tracker and controller you want to override, or use virtual controller. If you want to use only the tracker without a controller, then select add tracker
 
-<img width="453" height="318" alt="Capture7" src="https://github.com/user-attachments/assets/9a94a90c-aed1-46e5-8a5b-569b2b3c7025" />
+<img width="727" height="638" alt="videoframe_534" src="https://github.com/user-attachments/assets/ccd6b355-316d-4063-9d82-cdd554293758" />
 
+Press the on button to enable the tracker, then press the quick adjust button while holding your controller to align the tracker to the controller
 
-Press the on button to enable the tracker, then press the quick adjust button while holding your controller to align the tracker to the controller, or manually edit the offsets if you need more offset
+https://github.com/user-attachments/assets/05d98b8c-601b-4c27-90d1-b5e7a322e2e2
 
+Also, if you need to manually edit the offsets use manual offset
 <img width="769" height="301" alt="Capture2" src="https://github.com/user-attachments/assets/7cbc7f36-b363-440b-bafa-8c4d9e393eae" />
 
 Then press the save button, so it loads this every time you start VR
@@ -39,8 +39,17 @@ Then press the save button, so it loads this every time you start VR
 
 <img width="200" height="49" alt="Capture5" src="https://github.com/user-attachments/assets/c38a4c3c-c634-4360-a7eb-bb7b244c16c1" />
 
+### issues with index controllers and space cal
+If you are using a Quest headset with Space Cal for index controllers, there's a bug where they appear very far away. This is where you will need to enable Redirect mode
+
+https://github.com/user-attachments/assets/f1f89cc8-f238-49de-af1c-6f749929c22c
+
+When using this mode, quick cal might not work, but smooth cal will let you adjust by moving your hand 
+
+https://github.com/user-attachments/assets/a1aeb50a-adbd-4fe3-a637-1db7cb469b42
 
 ## adding bindings
+
 
 ## settings to change
 
