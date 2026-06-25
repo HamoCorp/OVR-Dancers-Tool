@@ -55,12 +55,14 @@ https://github.com/user-attachments/assets/f1f89cc8-f238-49de-af1c-6f749929c22c
 
 When using this mode, quick cal might not work, but smooth cal will let you adjust by moving your hand 
 
-https://github.com/user-attachments/assets/a1aeb50a-adbd-4fe3-a637-1db7cb469b42
+https://github.com/user-attachments/assets/5b15e296-4ec8-4970-96fa-7734f99f2033
+
 
 ## adding bindings
 
 Add a binding to toggle hands on and off
 
+<img width="462" height="99" alt="bindinging" src="https://github.com/user-attachments/assets/ae77120c-aa02-4a6b-bf43-1b42e9f0be91" />
 
 Add a new binding select toggle hands, then press save
 
@@ -68,10 +70,41 @@ https://github.com/user-attachments/assets/9ea48169-3fd7-4e72-af8d-b227bc4f63c5
 
 
 
-## settings to change
+## Hand Tracking
+Your trackers will automatically switch between controllers and quest finger tracking when you select the left and right hand option in add mapping.
+
+You can also force it not to auto-switch by using the lock setting. This will keep it locked to which ever what active last 
+
+<img width="743" height="134" alt="Capture21" src="https://github.com/user-attachments/assets/31f1151d-dc7a-4264-9414-47c78f7452a9" />
+
+
+## other settings to change
+
+### Langauge
+English, Japanese and Korean available
+
+<img width="314" height="70" alt="lanagage" src="https://github.com/user-attachments/assets/22252c9e-d815-424c-a1d9-c1f807f10185" />
+
+### Device Visibility
+Hide your wrist trackers from vr view
+
+<img width="479" height="75" alt="visability" src="https://github.com/user-attachments/assets/85462088-3425-4a78-b130-e686f4568a15" />
+
+### Virtual Controller
+Use this if you only have one or no controllers, but still want to use wrist trackers; you can bind them to virtual controllers instead
+
+<img width="744" height="133" alt="Capture22" src="https://github.com/user-attachments/assets/093b4e7c-1ccc-436c-817f-3d2445da878a" />
+
+### Delete save data
+Deletes the save data file to the default
+
+<img width="439" height="70" alt="deletesettings" src="https://github.com/user-attachments/assets/96db2bbb-d69f-411b-8a3d-08da50e5f294" />
+
 
 ## OSC Integration
 OSC integration for compatibility with VRChat, Resonite, ChilloutVR to add a custom effect to your avatars based on whether your hand trackers are active or disabled 
+
+<img width="497" height="210" alt="Captureosc" src="https://github.com/user-attachments/assets/554edd1f-442c-44b1-8aa2-64211f1765f3" />
 
 Add /avatar/parameters/OVRDancers_Active to your unity projects
 
@@ -80,9 +113,13 @@ Add /avatar/parameters/OVRDancers_Active to your unity projects
 ## Websockets Integration
 Resonite only alternative to OSC. Use websockets instead, and display your hand tracker status in-game, using ws://127.0.0.1:8080 to get a JSON response
 
+<img width="506" height="212" alt="Capturews" src="https://github.com/user-attachments/assets/4c9f9be7-a3cf-44e7-9cf5-674e5d40a127" />
+
+
+Get this example from my public folder `resrec:///U-HamoCorp/R-e5c234a3-c4d4-4645-af54-7a80d388605c`
+
 <img width="2560" height="1126" alt="20260618050802_1" src="https://github.com/user-attachments/assets/15cd52bb-e044-4360-ac80-67747abc11b0" />
-Get this example from my public folder
-`resrec:///U-HamoCorp/R-e5c234a3-c4d4-4645-af54-7a80d388605c`
+
 
 ## file locations
 want to ensure it's completely removed or check it's installed correctly
