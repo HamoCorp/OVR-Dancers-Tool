@@ -11,12 +11,19 @@ get the [latest release](https://github.com/HamoCorp/OVR-Dancers-Tool/releases/t
 
 Then open OVRDancersTool.exe
 
-Enable addon
+<img width="346" height="124" alt="Screenshot 2026-06-25 060628" src="https://github.com/user-attachments/assets/145abdff-b526-480f-877e-e5f8c3fdd7cc" />
 
-Set startup app
+In Steam VR settings, startup and shutdown, select manage add-ons
 
+<img width="762" height="139" alt="Capture12" src="https://github.com/user-attachments/assets/689bbc33-796b-4dac-b078-3e93124b547d" />
 
+Then enable if not already enabled
 
+<img width="479" height="68" alt="Capture13" src="https://github.com/user-attachments/assets/e051e6b8-e08b-4c89-ac34-9768c8c579ca" />
+
+Then choose startup overlay apps to make the OVRDancers Tool automatically launch on Steam start
+
+<img width="505" height="53" alt="Capture15" src="https://github.com/user-attachments/assets/28998f2d-4e56-4008-aac0-99554b58979a" />
 
 ## usage
 With your controllers and wrist trackers in your hands, select OVRDancersTool from the Steam menu and select add mapping.
@@ -27,11 +34,11 @@ Select the tracker and controller you want to override, or use virtual controlle
 
 <img width="727" height="638" alt="videoframe_534" src="https://github.com/user-attachments/assets/ccd6b355-316d-4063-9d82-cdd554293758" />
 
-Press the on button to enable the tracker, then press the quick adjust button while holding your controller to align the tracker to the controller
+Press the on button to enable the tracker, then press the quick cal button while holding your controller to align the tracker to the controller
 
 https://github.com/user-attachments/assets/05d98b8c-601b-4c27-90d1-b5e7a322e2e2
 
-Also, if you need to manually edit the offsets use manual offset
+Also, if you need to edit the offsets manually, use the manual offset
 <img width="769" height="301" alt="Capture2" src="https://github.com/user-attachments/assets/7cbc7f36-b363-440b-bafa-8c4d9e393eae" />
 
 Then press the save button, so it loads this every time you start VR
@@ -49,6 +56,14 @@ When using this mode, quick cal might not work, but smooth cal will let you adju
 https://github.com/user-attachments/assets/a1aeb50a-adbd-4fe3-a637-1db7cb469b42
 
 ## adding bindings
+
+Add a binding to toggle hands on and off
+
+
+Add a new binding select toggle hands, then press save
+
+https://github.com/user-attachments/assets/9ea48169-3fd7-4e72-af8d-b227bc4f63c5
+
 
 
 ## settings to change
