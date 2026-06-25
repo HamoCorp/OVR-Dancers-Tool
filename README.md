@@ -32,7 +32,7 @@ With your controllers and wrist trackers in your hands, select OVRDancersTool fr
 
 <img width="145" height="50" alt="Capture4" src="https://github.com/user-attachments/assets/67d02866-f1fb-41b2-ba09-eea4575ba961" />
 
-Select the tracker and controller you want to override, or use virtual controller. If you want to use only the tracker without a controller, then select add tracker
+Select the tracker and controller you want to override, or use a virtual controller. If you want to use only the tracker without a controller, then select add tracker
 
 <img width="727" height="638" alt="videoframe_534" src="https://github.com/user-attachments/assets/ccd6b355-316d-4063-9d82-cdd554293758" />
 
@@ -60,7 +60,7 @@ https://github.com/user-attachments/assets/5b15e296-4ec8-4970-96fa-7734f99f2033
 
 ## adding bindings
 
-Add a binding to toggle hands on and off
+Add a binding in settings to toggle hands on and off
 
 <img width="462" height="99" alt="bindinging" src="https://github.com/user-attachments/assets/ae77120c-aa02-4a6b-bf43-1b42e9f0be91" />
 
