@@ -9,7 +9,7 @@ A tool for dancers, VR bboys and bgirls can quickly switch between use trackers 
 
 get the [latest release](https://github.com/HamoCorp/OVR-Dancers-Tool/releases/tag/1.0.0) then follow the installation process
 
-Open OVRDancersTool.exe
+Open OVRDancersTool.exe while you are in steamVR
 
 <img width="346" height="124" alt="Screenshot 2026-06-25 060628" src="https://github.com/user-attachments/assets/145abdff-b526-480f-877e-e5f8c3fdd7cc" />
 
